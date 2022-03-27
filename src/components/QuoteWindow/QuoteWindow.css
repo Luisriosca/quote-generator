@@ -1,0 +1,45 @@
+.QuoteWindow{
+    background-color: #F8E5EE;
+    /* min-width: 60vw; */
+    width: 60vw;
+    height: 300px;
+    min-height: 25vh;
+    padding: 16px;
+    border-radius: 32px;
+    display: grid;
+    /* box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.253); */
+    /* ------------------------- */
+    grid-template: 
+        ".           .           .           ."            45px
+        "QuoteText   QuoteText   QuoteText   QuoteText"    100px
+        ".           .           QuoteAuthor QuoteAuthor " 30px
+        ".           .           .           ."            50px
+        ".           QuoteButton QuoteButton ."            50px  /
+        25%          25%         25%         25%    
+    ;
+}
+.QuoteText{
+    grid-area: QuoteText;
+    /* background-color: #9DD446; */
+}
+.QuoteAuthor{
+    grid-area: QuoteAuthor;
+    /* background-color: #9DD446; */
+}
+.QuoteButton{
+    grid-area: QuoteButton;
+    background-color: #B7E3CC;
+    border: none;
+    border-radius: inherit;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #9DD446; */
+}
+
+.QuoteButton:hover{
+    background-color: #B7E3CCBB;
+}
+.QuoteButton:active{
+    background-color: #0B6E4F;
+    color: #F8E5EE;
+}
