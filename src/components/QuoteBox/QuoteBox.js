@@ -1,5 +1,5 @@
 import React from 'react'
-import './QuoteWindow.css'
+import './QuoteBox.css'
 
 export default function QuoteWindow({quote, author, handle}) {
   return (

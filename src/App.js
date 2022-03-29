@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import QuoteWindow from './components/QuoteWindow/QuoteWindow';
+import QuoteBox from './components/QuoteBox/QuoteBox';
 import Quotes from './Quotes.json'
 
 
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <QuoteWindow quote={Quotes.quotes[indexQuote].quote} author={Quotes.quotes[indexQuote].author} handle={handleIndex}/>
+      <QuoteBox quote={Quotes.quotes[indexQuote].quote} author={Quotes.quotes[indexQuote].author} handle={handleIndex}/>
     </div>
   );
 }
