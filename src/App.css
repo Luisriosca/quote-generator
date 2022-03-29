@@ -7,10 +7,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0B1D51;
+  /* background-color: #0B1D51; */
   /* background-color: #CD533B; */
   /* background-color: #171D1C; */
   /* background-color: #012622; */
+  background-color: #212738;
 
   font-size: 1.2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

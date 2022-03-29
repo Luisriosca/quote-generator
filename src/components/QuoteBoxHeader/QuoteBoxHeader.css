@@ -2,12 +2,12 @@
     display: flex;
 }
 .header{
-    background-color: #F8E5CD;
-    padding: 10px;
+    background-color: #1B998B;
+    padding: 5px;
     grid-area: QuoteHeader; 
     justify-content: space-between;
     align-items: center;
-    border: 5px whitesmoke solid;
+    border-bottom: 4px solid #EDEBE8;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
