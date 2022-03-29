@@ -17,7 +17,7 @@ If you want to test my code in your pc, yo need tu use the next commands
 
 ### `git clone`
 For download all the files of the repository.
-### `npm Install`
+### `npm install`
 For install all the dependencies
 ### `npm star`
 For start the project in local host.
