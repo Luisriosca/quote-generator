@@ -10,7 +10,7 @@ function App() {
   // console.log(Quotes.quotes[0])
   const generateRandomNumber = () => {
     const randNum = Math.ceil(Math.random() * 101);
-    console.log(randNum)
+    // console.log(randNum)
     return randNum
   }
 

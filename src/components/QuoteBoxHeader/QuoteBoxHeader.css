@@ -10,8 +10,12 @@
     border-bottom: 4px solid #312F2F;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    /* gap: 50px; */
 }
 
+.icons{
+    justify-content: flex-start;
+}
 .bxs-circle1{
     color: tomato;
 }

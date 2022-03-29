@@ -13,7 +13,7 @@
     grid-template: 
         "QuoteHeader QuoteHeader QuoteHeader QuoteHeader"  45px
         "QuoteText   QuoteText   QuoteText   QuoteText"    100px
-        ".           .           .           QuoteAuthor " 30px
+        ".           .           QuoteAuthor QuoteAuthor " 30px
         ".           .           .           ."            50px
         ".           QuoteButton QuoteButton ."            50px  /
         25%          25%         25%         25%    
