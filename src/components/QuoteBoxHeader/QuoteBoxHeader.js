@@ -10,7 +10,7 @@ export default function QuoteBoxHeader() {
         <i className='bx bxs-circle bxs-circle3'></i>
         </div>
         <div>
-            created by: <a target="_blank" href="https://luisrioscode.netlify.app/">luisrioscode</a>
+            created by: <a target="_blank" href="https://luisrioscode.netlify.app/"  rel="noreferrer">luisrioscode</a>
         </div>
     </div>
   )
