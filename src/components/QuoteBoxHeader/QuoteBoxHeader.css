@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+}
+.header{
+    background-color: #F8E5CD;
+    padding: 10px;
+    grid-area: QuoteHeader; 
+    justify-content: space-between;
+    align-items: center;
+    border: 5px whitesmoke solid;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.bxs-circle1{
+    color: tomato;
+}
+
+.bxs-circle2{
+    color: lightseagreen;
+}
+.bxs-circle3{
+    color: lightblue;
+}

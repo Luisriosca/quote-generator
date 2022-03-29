@@ -1,16 +1,17 @@
 .QuoteWindow{
-    background-color: #F8E5EE;
+    background-color: #F8E5CD;
     /* min-width: 60vw; */
     width: 70vw;
     height: 300px;
     min-height: 25vh;
-    padding: 16px;
+    padding: 0;
     border-radius: 32px;
+    border: whitesmoke 4px solid;
     display: grid;
     /* box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.253); */
     /* ------------------------- */
     grid-template: 
-        ".           .           .           ."            45px
+        "QuoteHeader QuoteHeader QuoteHeader QuoteHeader"  45px
         "QuoteText   QuoteText   QuoteText   QuoteText"    100px
         ".           .           .           QuoteAuthor " 30px
         ".           .           .           ."            50px
@@ -18,6 +19,11 @@
         25%          25%         25%         25%    
     ;
 }
+.QuoteHeader{
+    grid-area: QuoteHeader; 
+    background-color: #0B6E4F;
+}
+
 .QuoteText{
     grid-area: QuoteText;
     /* background-color: #9DD446; */
